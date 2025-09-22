@@ -1,0 +1,64 @@
+/* Global styles and main container */
+.scanner-container {
+    background-color: #111827; /* bg-gray-900 */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Title and description section */
+.title-container {
+    width: 100%;
+    max-width: 896px; /* max-w-4xl */
+    text-align: center;
+    margin-bottom: 2rem; /* mb-8 */
+}
+
+.title-container h1 {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 700; /* font-bold */
+    color: white;
+    margin-bottom: 0.5rem; /* mb-2 */
+    letter-spacing: 0.05em; /* tracking-wider */
+}
+
+/* Responsive font size for title */
+@media (min-width: 768px) {
+    .title-container h1 {
+        font-size: 3rem; /* md:text-5xl */
+    }
+}
+
+.title-container p {
+    font-size: 1.125rem; /* text-lg */
+    color: #9CA3AF; /* text-gray-400 */
+}
+
+/* Wrapper for the grid */
+.grid-wrapper {
+    background-color: black;
+    padding: 0.5rem; /* p-2 */
+    border-radius: 0.5rem; /* rounded-lg */
+    border: 1px solid #374151; /* border border-gray-700 */
+    /* The main shadow is now a dynamic inline style in JSX */
+    transition: box-shadow 300ms ease-in-out;
+}
+
+/* The grid container */
+.grid-container {
+    display: grid;
+    gap: 6px; /* gap-1.5 */
+}
+
+/* Individual cells in the grid */
+.cell {
+    width: 100%;
+    height: 100%;
+    transition: background-color 75ms; /* transition-colors duration-75 */
+}
