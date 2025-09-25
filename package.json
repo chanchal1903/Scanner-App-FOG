@@ -2,7 +2,7 @@
   "name": "package.json",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://chanchal1903.github.io/Scanner-App-FOG",
+  "homepage": "https://github.com/nayandangeSDE27/Scanner-App.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
